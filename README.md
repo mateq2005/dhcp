@@ -43,3 +43,7 @@ option domain-name-servers 8.8.8.8, 8.8.4.4;
 ```
 
 ### Configure DHCP Server to Assign Static IP to Client
+
+```
+nano /etc/dhcp/dhcpd.conf
+```
