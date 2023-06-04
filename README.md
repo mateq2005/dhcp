@@ -57,3 +57,11 @@ fixed-address 192.168.0.5;
 
 }
 ```
+
+```
+systemctl restart isc-dhcp-server
+```
+
+```
+systemctl status isc-dhcp-server
+```
