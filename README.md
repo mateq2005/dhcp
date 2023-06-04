@@ -16,3 +16,7 @@ systemctl enable isc-dhcp-server
 ```
 nano /etc/default/isc-dhcp-server
 ```
+
+```
+INTERFACESv4="eth0"
+```
