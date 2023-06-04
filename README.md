@@ -27,6 +27,7 @@ nano /etc/dhcp/dhcpd.conf
 
 ```
 authoritative;
+
 default-lease-time 660;
 max-lease-time 6300;
 
