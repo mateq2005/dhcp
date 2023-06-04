@@ -24,3 +24,19 @@ INTERFACESv4="eth0"
 ```
 nano /etc/dhcp/dhcpd.conf
 ```
+
+```
+authoritative;
+default-lease-time 660;
+max-lease-time 6300;
+
+# range of subnet
+range 192.168.0.2 192.168.0.20;
+
+# gateway address
+option routers 192.168.0.1;
+
+# DNS server address
+option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+```
