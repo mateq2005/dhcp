@@ -12,3 +12,7 @@ systemctl enable isc-dhcp-server
 ```
 
 ### Configure DHCP Service
+
+```
+nano /etc/default/isc-dhcp-server
+```
