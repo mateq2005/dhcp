@@ -47,3 +47,13 @@ option domain-name-servers 8.8.8.8, 8.8.4.4;
 ```
 nano /etc/dhcp/dhcpd.conf
 ```
+
+```
+host client1 {
+
+hardware ethernet 4c:bb:58:9c:f5:55;
+
+fixed-address 192.168.0.5;
+
+}
+```
