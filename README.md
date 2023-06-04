@@ -20,3 +20,7 @@ nano /etc/default/isc-dhcp-server
 ```
 INTERFACESv4="eth0"
 ```
+
+```
+nano /etc/dhcp/dhcpd.conf
+```
