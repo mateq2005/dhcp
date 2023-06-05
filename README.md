@@ -65,5 +65,3 @@ systemctl restart isc-dhcp-server
 ```
 systemctl status isc-dhcp-server
 ```
-
-OK
