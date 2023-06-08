@@ -1,6 +1,6 @@
 # DHCP
 
-### Install DHCP Server
+### Installing DHCP Server
 
 ```
 sudo apt-get update
@@ -12,7 +12,7 @@ systemctl start isc-dhcp-server
 systemctl enable isc-dhcp-server
 ```
 
-### Configure DHCP Service
+### Configuring DHCP Service
 
 ```
 nano /etc/default/isc-dhcp-server
