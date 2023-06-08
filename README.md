@@ -37,7 +37,7 @@ range 192.168.0.2 192.168.0.20;
 # gateway address
 option routers 192.168.0.1;
 
-# DNS server address
+# DNS server addresses
 option domain-name-servers 8.8.8.8, 8.8.4.4;
 }
 ```
@@ -49,7 +49,7 @@ nano /etc/dhcp/dhcpd.conf
 ```
 
 ```
-host client1 {
+host client {
 
 hardware ethernet 4c:bb:58:9c:f5:55;
 
