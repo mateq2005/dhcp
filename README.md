@@ -3,6 +3,7 @@
 ### Install DHCP Server
 
 ```
+sudo apt update
 apt-get install isc-dhcp-server -y
 ```
 
