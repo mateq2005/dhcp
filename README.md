@@ -31,14 +31,12 @@ authoritative;
 default-lease-time 660;
 max-lease-time 6300;
 
-# range of subnet
-range 192.168.0.2 192.168.0.20;
-
-# gateway address
-option routers 192.168.0.1;
-
-# DNS server addresses
-option domain-name-servers 8.8.8.8, 8.8.4.4;
+subnet 192.168.0.0 netmask 255.255.255.0 {
+  range 192.168.0.2 192.168.0.20;
+  option routers 192.168.0.1
+  option domain-name-servers 8.8.8.8;
+  option domain-name "example.org";
+  option broadcast-address 192.168.0.255;
 }
 ```
 
