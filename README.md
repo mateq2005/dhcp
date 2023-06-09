@@ -10,7 +10,6 @@ apt-get install isc-dhcp-server -y
 ```
 systemctl start isc-dhcp-server
 systemctl enable isc-dhcp-server
-systemctl status isc-dhcp-server
 ```
 
 ### Configuring DHCP Service
